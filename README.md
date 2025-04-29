@@ -1,11 +1,10 @@
 # 🚗 Driver Distraction Detection System
 
-A real-time embedded system for detecting driver distractions using computer vision and deep learning on the Jetson Nano 4GB. This project was developed as part of the EE 499 Senior Design Project at King Abdulaziz University.
-
+This project presents a real-time embedded system designed to detect driver distractions using advanced computer vision and deep learning techniques. Leveraging the NVIDIA Jetson Nano 4GB, the system continuously monitors the driver's behavior through an RGB-IR camera and identifies key distraction types such as mobile phone usage, talking to passengers, and improper hand placement on the steering wheel. The solution combines efficient object detection with GPIO-based feedback mechanisms, making it suitable for real-world deployment in vehicles.
 ## 👨‍💻 Team Members
-- Jawad Maimani – 2136574
-- Zyad Alzahrani – 2138321
-- Abdullah Alghamdi – 2136513
+- Zyad Alzahrani 
+- Jawad Maimani 
+- Abdullah Alghamdi 
 
 ## 📘 Project Overview
 Driver distraction is a major cause of road accidents. Our system detects four critical types of distractions:

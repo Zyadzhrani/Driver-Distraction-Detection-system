@@ -2,11 +2,6 @@
 
 A real-time embedded system for detecting driver distractions using computer vision and deep learning on the Jetson Nano 4GB. This project was developed as part of the EE 499 Senior Design Project at King Abdulaziz University.
 
-## 👨‍💻 Team Members
-- Jawad Maimani – 2136574
-- Zyad Alzahrani – 2138321
-- Abdullah Alghamdi – 2136513
-
 ## 📘 Project Overview
 Driver distraction is a major cause of road accidents. Our system detects four critical types of distractions:
 1. Using a mobile phone
@@ -21,8 +16,7 @@ The system is designed to run on the Jetson Nano using a YOLOv8s-OBB model. It i
 - Arducam 1080p RGB-IR Camera
 - Buzzer (with transistor circuit)
 - Push Button (for generating PDF reports)
-- USB Microphone
-- Speaker for alerts
+- Buzzer for alerts
 - 12V car power adapter
 - Custom 3D printed mounts and case
 
@@ -55,20 +49,6 @@ The system is designed to run on the Jetson Nano using a YOLOv8s-OBB model. It i
 | 7        | Talking on Phone (Right) |
 | 8        | Normal Face              |
 
-## ▶️ How to Run
-
-1. Activate the Python environment:
-   ```bash
-   source yolov8env/bin/activate
-   ```
-
-2. Run the main script:
-   ```bash
-   python3 Driver_dis_with_button.py
-   ```
-
-   > If you get memory errors, ensure swap is configured (`/swapfile`).
-
 ## 🧪 Validation
 - Achieved over **91% mAP@0.5**
 - Successfully deployed on Jetson Nano for real-time performance
@@ -76,18 +56,6 @@ The system is designed to run on the Jetson Nano using a YOLOv8s-OBB model. It i
 
 ## 📝 Report Generation
 - A push button connected to GPIO 22 allows the user to trigger `PDF_FILE.py`, which generates a summary report of the logged distractions.
-
-## 📁 Directory Structure
-```
-Driver-Distraction-System/
-├── Driver_dis_with_button.py
-├── PDF_FILE.py
-├── Yolov8s_OBB.pt
-├── predictions/
-│   └── annotated_*.jpg
-├── captured_*.jpg (deleted automatically)
-└── destraction_save.txt
-```
 
 ## 🛡️ Standards Followed
 - ISO 15005:2017 (Ergonomics for driver feedback)

@@ -20,7 +20,7 @@ Driver distraction is a major cause of road accidents. Our system detects four c
 ![Talking to passenger](Images/Talking_to_passenger.jpg)
 
 ### 4. Not Holding the Steering Wheel
-![Not holding wheel](Images/Not_holding_the_steering_wheel.jpg)
+![Not holding wheel](Not_holding_the_steering_wheel.jpg)
 
 ## 🧪 Testing Environment
 We tested our system in multiple lighting and setup environments.

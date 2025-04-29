@@ -14,7 +14,7 @@ Driver distraction is a major cause of road accidents. Our system detects four c
 ![Using mobile phone](Images/Using_mobile_phone.jpg)
 
 ### 2. Talking on the Phone (Left or Right Hand)
-![Talking on the phone](Talking_on_the_phone.jpg)
+![Talking on the phone](Images/Talking_on_the_phone.jpg)
 
 ### 3. Talking to Passengers
 ![Talking to passenger](Images/Talking_to_passenger.jpg)
@@ -105,7 +105,7 @@ Driver-Distraction-System/
 │   ├── Using_mobile_phone.jpg
 │   ├── Talking_on_the_phone.jpg
 │   ├── Talking_to_passenger.jpg
-│   └── Not_holding_the_steering_wheel.jpg
+│   ├── Not_holding_the_steering_wheel.jpg
 │   └── Figure_Y_combined_square.jpg
 ├── Report_Example.pdf
 └── README.md

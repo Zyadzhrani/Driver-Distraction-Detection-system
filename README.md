@@ -79,7 +79,7 @@ The system was validated using a labeled dataset captured in real driving condit
 | Talking on the Phone     | 89.6%        |
 | Talking to Passenger     | 91.0%        |
 | Hands Not on Steering    | 94.1%        |
-| Normal (No Distraction)  | 90.7%        |
+
 
 The model performed reliably during both daytime and nighttime, leveraging the RGB-IR camera to maintain consistent results across varying lighting conditions. The system was successfully deployed on Jetson Nano for real-time processing.
 
